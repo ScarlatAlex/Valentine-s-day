@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment</title>
+    <link rel="stylesheet" href="/style/comment.css" />
+  </head>
+  <body>
+    <h1 class="elegantshadow">Leeave a comment</h1>
+    <script src="Script.js"></script>
+    <form id="main-form" onsubmit="return checkForm(this)">
+      <label for="name"> First name:</label>
+      <input type="text" name="name" placeholder="Your name" id="name" /> <br />
+      <br />
+      <label for="name"> Last name:</label>
+      <input type="text" name="name" placeholder="Your name" id="name" /> <br />
+      <br />
+      <label for="email">email:</label>
+      <input type="email" placeholder="enter your email adress"> <br> <br>
+
+      <span>Gender:</span>
+      <input type="radio" name="state" id="male" value="Male" />
+      <label for="male"> Male:</label>
+      <input type="radio" name="state" id="female" value="Female" />
+      <label for="female"> Female:</label> <br />
+      <br />
+      <textarea
+        name="Comment"
+        id="comment"
+        placeholder="Enter your comment"
+        cols="80"
+        rows="10"
+      ></textarea>
+      <br />
+      <br />
+      <input class="but" type="submit" name="submit" value="Finish" />
+    </form>
+    <div class="intro">
+      <div class="container">
+        <div class="intro__inner">  
+          <a class="btn" href="index.html">Back home</a>
+        </div>
+      </div>
+  </body>
+</html>
